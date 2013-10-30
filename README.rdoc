@@ -1,0 +1,38 @@
+= Redmine Percent Done Configuration
+
+Redmine Percent Done Configuration is a very simple plugin that allows the Admin User configures the issues done ratio. 
+
+The user can choose any interval which is divided by 100 (1,2,4,5,10,25,50 or 100) and apply over the issues.
+
+With the configuration of issues done ratio, the accuracy of an issue evolution gets easier to see and easier to measure a course of a project.
+
+
+== Features
+
+* Global Percent done Configuration of Issues.
+
+== Install
+
+1. Paste the folder “redmine_percent_done_configuration” into the plugins folder
+
+2. Restart redmine
+
+3. Go to Administration -> Plugins -> Configure (Percent Done Configuration)
+
+4. Choose the percent done interval and click on Apply button.
+
+== Uninstall
+
+1. Delete the folder “redmine_percent_done_configuration”
+
+2. Restart redmine
+
+== Versions
+
+Works on version 2.3.x of Redmine
+
+== Feature Changelog
+
+=== 0.1.23x
+
+First Commit

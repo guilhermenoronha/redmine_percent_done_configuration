@@ -1,0 +1,2 @@
+<%= l(:percent_setting) %>
+<%= select_tag 'settings[percent_default]', options_for_select([1, 2, 4, 5, 10, 20, 25, 50, 100], Setting.plugin_redmine_percent_done_configuration['percent_default'].to_i) %>
